@@ -5,7 +5,7 @@ detect();
 async function detect() {
   console.log('OK');
   const img = document.querySelector('img');
-  const faces = await faceDetector.detect(img);
+  const faces = await faceDetector.detect(document.querySelector('img'));
   drawFaces(faces);
 }
 
