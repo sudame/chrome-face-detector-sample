@@ -12,3 +12,11 @@ img{
     height: 100%;
     width: 100%;
 }
+
+.landmark{
+    background-color: red;
+}
+
+.face{
+    border: 2px solid greenyellow;
+}
