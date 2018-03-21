@@ -1,5 +1,8 @@
-const faceDetector = new window.FaceDetector();
-const wrap = document.querySelector('.wrap');
+document.addEventListener('load', () => {
+    const faceDetector = new window.FaceDetector();
+    const wrap = document.querySelector('.wrap');
+    detect();
+    });
 
 async function detect(){
     console.log('OK');
