@@ -1,0 +1,14 @@
+body{
+    padding: 20px;
+}
+
+.wrap{
+    max-height: 80vh;
+    max-width: 80vw;
+    margin: auto auto;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}

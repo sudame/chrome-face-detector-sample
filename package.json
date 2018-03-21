@@ -1,0 +1,11 @@
+{
+  "name": "chrome-face-detector-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Suda Mikihiro <s1711373@coins.tsukuba.ac.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
+}
