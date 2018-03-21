@@ -8,7 +8,7 @@ async function detect(){
     drawFaces(faces);
 }
 
-async function drawFace(faces){
+async function drawFaces(faces){
     faces.forEach(face => {
         console.log(face);
         const {width, height, top, left} = face.boundingBox;
